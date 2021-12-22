@@ -1,0 +1,121 @@
+html, body{
+    margin: 0;
+    padding:0;
+    background-image: linear-gradient(green,orange,white);
+}
+*{
+    box-sizing: border-box;
+}
+
+.container-about{
+    width: 100vw;
+    height: 100vh;
+    padding: 0 2vw;
+    margin-bottom: 0;
+   
+}
+
+@media (max-width: 600px) {
+    .nav-about ul {
+      flex-direction: column;
+    }
+  }
+
+.content-about{
+    width: 100%;
+    height: 70%;
+   
+}
+
+.footer-about{
+    width: 100%;
+    height: 20%;
+}
+
+.nav-about{
+    display:flex;
+  width: 100vw;
+  height: 10vh;
+  flex-direction: row;
+  background-color: cadetblue;
+}
+
+.lists-nav{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    float:left;
+    justify-content:space-evenly;
+
+    
+}
+
+.lists-nav li{
+    list-style-type: none;
+    justify-items: right;
+    font-size: 3vh;
+}
+
+.lists-nav a{
+    text-decoration: none;
+}
+h1{text-align: center;}
+
+p{
+    font-size:2vh;
+    flex-wrap: wrap;
+    display: flex;
+    text-align: justify;
+}
+
+.sport-kind li{
+    text-align: center;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+h2{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    justify-content: center;
+}
+table{
+    display: flex;
+    justify-content: center;
+    border-collapse:collapse;
+}
+
+.footer-about{
+    height: 20vh;
+    width: 100vw;
+    background-color: dimgray;
+}
+
+.text-about{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 3vh;
+}
+
+@media screen and (max-width: 600px) {
+    .text-about{
+        flex-direction: column;
+    }
+    
+}
+
+.picture-about{
+    display: flex;
+    float:right;
+    justify-content: space-between;
+    padding-right: 10vw;
+    gap: 2vw;
+}

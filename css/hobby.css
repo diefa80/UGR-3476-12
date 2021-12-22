@@ -1,0 +1,92 @@
+html, body{
+    margin: 0;
+    padding:0;
+    background-image: linear-gradient(darkgray,darkgray,darkgray);
+}
+*{
+    box-sizing: border-box;
+}
+
+.container-hobby{
+    width: 100vw;
+    height: 100vh;
+    padding: 0 2vw;
+    margin-bottom: 0;
+}
+
+.nav-hobby{
+    display:flex;
+    width: 100vw;
+    height: 10vh;
+    flex-direction: row;
+    background-color: cadetblue;
+
+}
+
+.img3{
+    width: 20%;
+    height: auto;
+}
+
+.content-hobby{
+    width: 100%;
+    height: 70%;
+    background-color: darkgray;
+
+}
+
+.footer-hobby{
+    width: 100%;
+    height: 20%;
+    background-color: dimgray;
+
+}
+
+.lists-hobby{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content:space-evenly;
+
+    
+}
+
+}
+@media (max-width: 600px) {
+    .lists-hobby {
+      flex-direction: column;
+    }
+  }
+
+.lists-hobby a{
+    text-decoration: none;
+}
+
+.lists-hobby li{
+    list-style-type: none;
+    justify-items: right;
+    font-size: 3vh;
+}
+
+
+.text-Hobby{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    font-size: 3vh;
+}
+
+}
+@media (max-width: 600px) {
+    .text-Hobby {
+      flex-direction: column;
+    }
+  }
+
+.picture-Hobby{
+    display: flex;
+    float:right;
+    justify-content: space-between;
+    padding-right: 10vw;
+    gap: 2vw;
+}
